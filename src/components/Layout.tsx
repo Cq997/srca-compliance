@@ -29,6 +29,7 @@ const NAV = [
     items: [
       { to: "/visits",          icon: BookOpen,   label: "سجل الزيارات" },
       { to: "/correspondences", icon: FileText,   label: "المخاطبات" },
+      { to: "/complaints",      icon: AlertTriangle, label: "الشكاوى والمخالفات" },
     ],
   },
 ];
