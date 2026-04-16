@@ -20,7 +20,7 @@ export default function VisitsList() {
 
   useEffect(() => {
     (async () => {
-      const data = await getFromSheets("all_visits");
+      const data = await getFromSheets("all_visits") as Record<string, any> | null;
       setVisits(data?.visits || []);
       setLoading(false);
     })();
