@@ -20,7 +20,7 @@ export default function Dashboard() {
 
   useEffect(() => {
     (async () => {
-      const data = await getFromSheets("dashboard_stats");
+      const data = await getFromSheets("dashboard_stats") as Record<string, any> | null;
       if (data) {
         setStats(data.stats || { totalVisits: 0, avgScore: 0, excellentCount: 0, poorCount: 0 });
         setRecentVisits(data.recentVisits || []);
