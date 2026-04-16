@@ -8,6 +8,7 @@ import UniformForm from "./pages/forms/UniformForm";
 import SpotCheckForm from "./pages/forms/SpotCheckForm";
 import VisitsList from "./pages/VisitsList";
 import Correspondences from "./pages/Correspondences";
+import Complaints from "./pages/Complaints";
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
         <Route path="forms/spotcheck" element={<SpotCheckForm />} />
         <Route path="visits" element={<VisitsList />} />
         <Route path="correspondences" element={<Correspondences />} />
+        <Route path="complaints" element={<Complaints />} />
       </Route>
     </Routes>
   );
