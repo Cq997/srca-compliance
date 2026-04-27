@@ -1,14 +1,14 @@
 /**
  * إعدادات منظومة إدارة الالتزام
- * هيئة الهلال الأحمر السعودي — منطقة الرياض
+ * ه— منطقة الرياض
  */
 
 export const APP_NAME    = "منظومة إدارة الالتزام";
-export const APP_SUBTITLE = "هيئة الهلال الأحمر — منطقة الرياض";
+export const APP_SUBTITLE = "  منطقة الرياض";
 
 // ─── رابط Google Sheets Webhook ─────────────────────────────
 export const SHEETS_WEBHOOK_URL =
-  "https://script.google.com/macros/s/AKfycbzPGmEQSRXJNHyXb84YBOIZHCXZXEKvpbUIOwyZst7ScbGE9kh60jcmUVw6ySkZgE1y8w/exec";
+  "https://script.google.com/macros/s/AKfycbyOaBD1SY-4dtiwt2KLo-GKFXca7x2EZU9HnK-Q76b1b05NF3OA-tzhKyKGNVuPkhd39w/exec";
 
 // ─── القطاعات (19 قطاعاً) ───────────────────────────────────
 export const SECTORS = [
