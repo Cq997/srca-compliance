@@ -518,7 +518,7 @@ export default function Complaints() {
           <div>
             <h1 className="text-2xl font-bold">⚖️ سجل الشكاوى والمخالفات</h1>
             <p className="text-red-200 text-sm mt-1">
-              هيئة الهلال الأحمر السعودي — منطقة الرياض
+               منطقة الرياض
             </p>
           </div>
           <div className="flex gap-2">
