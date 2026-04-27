@@ -36,7 +36,7 @@ export default function Dashboard() {
         <div className="flex items-start justify-between">
           <div>
             <h1 className="text-2xl font-black mb-1">لوحة القائد</h1>
-            <p className="text-white/80 text-sm">منظومة إدارة الالتزام — هيئة الهلال الأحمر السعودي — منطقة الرياض</p>
+            <p className="text-white/80 text-sm">منظومة إدارة الالتزام — منطقة الرياض</p>
           </div>
           <div className="text-right text-white/70 text-sm">
             <div>{new Date().toLocaleDateString("ar-SA", { weekday: "long", year: "numeric", month: "long", day: "numeric" })}</div>
